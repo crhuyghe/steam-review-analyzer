@@ -54,8 +54,6 @@ def reset_reviews():
 
 def p_shift_reviews(val):
     global p_index
-
-    print(len(dm.query_response[2]["positive"]))
     if dm.query_response is None or len(dm.query_response[2]["positive"]) == 0:
         return gr.update(value="No relevant positive reviews found")
     else:
