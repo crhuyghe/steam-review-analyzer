@@ -18,6 +18,7 @@ The exact link is output to the console at runtime.
 
 To use the application, type in the game title and app ID of the Steam game you wish to analyze reviews for. The app ID
 is an integer divisible by 10 that can be seen on the link to the Steam store page for a game.
+- For example, <span>https://store.steampowered.com/app/<App ID>/<Game Title>/</span>
 
 After submitting the game details, the application will download the review dataset. As Steam's API is rate limited, 
 this may take some time. Once the entire review dataset is downloaded, it will be processed into a set of embeddings.
