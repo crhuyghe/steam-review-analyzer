@@ -1,5 +1,15 @@
 # steam-review-analyzer
 
+This application is built on Python 3.12
+
+The following libraries are required for this application to run:
+- pandas v2.2.3
+- numpy v2.1.3
+- steamreviews v0.9.5
+- sentence-transformers v3.2.1
+- gradio v5.5.0
+
+
 To launch this application, simply run the file "main.py"
 
 Doing so will launch a Gradio application that by default runs on http://127.0.0.1:7860.
